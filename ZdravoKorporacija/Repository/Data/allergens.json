@@ -1,0 +1,78 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "penicilin"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "jod"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "jagode"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "adrianol"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "brufen"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "paracetamol"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "benzodiazepin"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "brašno"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "laktoza"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "glukoza"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "paradajz"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "crveno meso"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "piletina"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "kafa"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "jabuka"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "soda bikarbona"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "paprika"
+    },
+    {
+      "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+      "Allergen": "krastavci"
+    }
+
+  ]
+}

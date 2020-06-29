@@ -1,0 +1,57 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.ExaminationSurgery.LabTestType, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "hematološke"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "urin"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "tiroidne"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "dijabetes"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "biohemija"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "elektroliti"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "nadbubrezni hormoni"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "hormoni hipofize"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "srcani markeri"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "koagulacija"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "enzimi"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "anemija"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "kostani markeri"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "bakterijska"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "virusna"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "tumor markeri"
+    },    {
+      "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+      "TestName": "reproduktivni"
+    }
+  ]
+}

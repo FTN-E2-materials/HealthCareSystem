@@ -1,0 +1,21 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.MedicalRecord.Vaccines, ZdravoKorporacija",
+      "Name": "BCG"
+    },
+    {
+      "$type": "Model.MedicalRecord.Vaccines, ZdravoKorporacija",
+      "Name": "HB"
+    },
+    {
+      "$type": "Model.MedicalRecord.Vaccines, ZdravoKorporacija",
+      "Name": "DTP"
+    },
+    {
+      "$type": "Model.MedicalRecord.Vaccines, ZdravoKorporacija",
+      "Name": "OPV"
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 1,
+      "Med": "Brufen",
+      "Status": 0,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 2,
+      "Med": "Propranolol",
+      "Status": 0,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 3,
+      "Med": "Betaserc",
+      "Status": 0,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 4,
+      "Med": "Ciprocinal",
+      "Status": 0,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 5,
+      "Med": "Cefaleksin",
+      "Status": 0,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 6,
+      "Med": "Rivotril",
+      "Status": 1,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 7,
+      "Med": "Bensedin",
+      "Status": 1,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 8,
+      "Med": "Amoksicilin",
+      "Status": 1,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 9,
+      "Med": "Diklofenak",
+      "Status": 1,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 10,
+      "Med": "Citarzil",
+      "Status": 1,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Medications.Medication, ZdravoKorporacija",
+      "MedId": 11,
+      "Med": "Hemomicin",
+      "Status": 1,
+      "Company": "Hemofarm",
+      "Quantity": 10,
+      "MedicationContent": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.DosageOfIngredient, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.DosageOfIngredient, ZdravoKorporacija",
+            "Amount": 500.0,
+            "MedicationIngredient": {
+              "$type": "Model.Medications.MedicationIngredient, ZdravoKorporacija",
+              "Name": "brufen"
+            }
+          }
+        ]
+      },
+      "MedicationCategory": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+            "CategoryName": "kardio-vaskularni",
+            "Specialization": {
+              "$type": "Model.Users.Specialization, ZdravoKorporacija",
+              "SpecializationName": "kardiologija"
+            }
+          }
+        ]
+      },
+      "Allergens": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "brufen"
+          }
+        ]
+      },
+      "AlternativeMedication": null,
+      "SideEffects": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.SideEffect, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.SideEffect, ZdravoKorporacija",
+            "Frequency": 0,
+            "SideEffects": {
+              "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+              "Name": "vrtoglavica"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

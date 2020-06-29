@@ -1,0 +1,41 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Users.Specialization, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "kardiologija"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "opšta hirurgija"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "opšta praksa"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "plastična hirurgija"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "neurologija"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "ginekologija"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "ORL"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "dermatologija"
+    },
+    {
+      "$type": "Model.Users.Specialization, ZdravoKorporacija",
+      "SpecializationName": "psihijatrija"
+    }
+  ]
+}

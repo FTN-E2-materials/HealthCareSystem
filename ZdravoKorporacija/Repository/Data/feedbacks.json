@@ -1,0 +1,51 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Users.Feedback, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Users.Feedback, ZdravoKorporacija",
+      "registeredUser": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "Date": "2020-06-27T00:00:00+02:00",
+      "AdditionalNotes": "",
+      "SoftwareGrade": 4,
+      "EverythingInGoodPlace": 3,
+      "RegisteredUser": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "Id": 1
+    }
+  ]
+}

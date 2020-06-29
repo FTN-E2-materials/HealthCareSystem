@@ -1,0 +1,497 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.MedicalRecord, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+      "IdRecord": 1,
+      "CurrHealthState": 1,
+      "BloodType": 6,
+      "Allergies": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "laktoza"
+          },
+          {
+            "$type": "Model.Medications.Allergens, ZdravoKorporacija",
+            "Allergen": "paprika"
+          }
+        ]
+      },
+      "Vaccines": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.Vaccines, ZdravoKorporacija",
+            "Name": "BCG"
+          }
+        ]
+      },
+      "IllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.Diagnosis, ZdravoKorporacija",
+            "Name": null,
+            "Code": 1,
+            "Symptoms": null
+          },
+          {
+            "$type": "Model.MedicalRecord.Diagnosis, ZdravoKorporacija",
+            "Name": null,
+            "Code": 1,
+            "Symptoms": null
+          },
+          {
+            "$type": "Model.MedicalRecord.Diagnosis, ZdravoKorporacija",
+            "Name": null,
+            "Code": 1,
+            "Symptoms": null
+          }
+        ]
+      },
+      "FamilyIllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.FamilyIllnessHistory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Patient": {
+        "$type": "Model.Users.Patient, ZdravoKorporacija",
+        "IsGuestAccount": false,
+        "ChosenDoctor": null,
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "mirko12",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "ListOfResults": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.ListOfResults, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.ListOfResults, ZdravoKorporacija",
+            "Id": 0,
+            "DateOfTesting": "2020-06-22T00:00:00+02:00",
+            "LabResults": {
+              "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.LabResults, ZdravoKorporacija]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Model.MedicalRecord.LabResults, ZdravoKorporacija",
+                  "ResultType": "RBC",
+                  "Value": 3.9,
+                  "MaxRefValue": 5.0,
+                  "MinRefValue": 3.8
+                },
+                {
+                  "$type": "Model.MedicalRecord.LabResults, ZdravoKorporacija",
+                  "ResultType": "WBC",
+                  "Value": 5.0,
+                  "MaxRefValue": 10.0,
+                  "MinRefValue": 3.9
+                },
+                {
+                  "$type": "Model.MedicalRecord.LabResults, ZdravoKorporacija",
+                  "ResultType": "PLT",
+                  "Value": 180.0,
+                  "MaxRefValue": 450.0,
+                  "MinRefValue": 140.0
+                },
+                {
+                  "$type": "Model.MedicalRecord.LabResults, ZdravoKorporacija",
+                  "ResultType": "Htc",
+                  "Value": 0.4,
+                  "MaxRefValue": 0.47,
+                  "MinRefValue": 0.356
+                },
+                {
+                  "$type": "Model.MedicalRecord.LabResults, ZdravoKorporacija",
+                  "ResultType": "Hgb",
+                  "Value": 150.0,
+                  "MaxRefValue": 180.0,
+                  "MinRefValue": 110.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Therapies": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Therapy, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.Therapy, ZdravoKorporacija",
+            "HourConsumption": 0,
+            "Medication": {
+              "$type": "Model.Medications.Medication, ZdravoKorporacija",
+              "MedId": 6,
+              "Med": null,
+              "Status": 0,
+              "Company": null,
+              "Quantity": 0,
+              "MedicationContent": null,
+              "MedicationCategory": null,
+              "Allergens": null,
+              "AlternativeMedication": null,
+              "SideEffects": null
+            }
+          },
+          {
+            "$type": "Model.MedicalRecord.Therapy, ZdravoKorporacija",
+            "HourConsumption": 0,
+            "Medication": {
+              "$type": "Model.Medications.Medication, ZdravoKorporacija",
+              "MedId": 7,
+              "Med": null,
+              "Status": 0,
+              "Company": null,
+              "Quantity": 0,
+              "MedicationContent": null,
+              "MedicationCategory": null,
+              "Allergens": null,
+              "AlternativeMedication": null,
+              "SideEffects": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+      "IdRecord": 2,
+      "CurrHealthState": 1,
+      "BloodType": 6,
+      "Allergies": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Vaccines": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "IllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.Diagnosis, ZdravoKorporacija",
+            "Name": null,
+            "Code": 1,
+            "Symptoms": null
+          }
+        ]
+      },
+      "FamilyIllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.FamilyIllnessHistory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Patient": {
+        "$type": "Model.Users.Patient, ZdravoKorporacija",
+        "IsGuestAccount": false,
+        "ChosenDoctor": null,
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "dusan-vasiljev",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "ListOfResults": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.ListOfResults, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Therapies": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Therapy, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+      "IdRecord": 3,
+      "CurrHealthState": 1,
+      "BloodType": 6,
+      "Allergies": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Vaccines": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "IllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.Diagnosis, ZdravoKorporacija",
+            "Name": null,
+            "Code": 1,
+            "Symptoms": null
+          }
+        ]
+      },
+      "FamilyIllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.FamilyIllnessHistory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Patient": {
+        "$type": "Model.Users.Patient, ZdravoKorporacija",
+        "IsGuestAccount": false,
+        "ChosenDoctor": null,
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "Milann",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "ListOfResults": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.ListOfResults, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Therapies": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Therapy, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+      "IdRecord": 4,
+      "CurrHealthState": 1,
+      "BloodType": 6,
+      "Allergies": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Vaccines": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "IllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.Diagnosis, ZdravoKorporacija",
+            "Name": null,
+            "Code": 1,
+            "Symptoms": null
+          }
+        ]
+      },
+      "FamilyIllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.FamilyIllnessHistory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Patient": {
+        "$type": "Model.Users.Patient, ZdravoKorporacija",
+        "IsGuestAccount": false,
+        "ChosenDoctor": null,
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "markoo",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "ListOfResults": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.ListOfResults, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Therapies": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Therapy, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+      "IdRecord": 5,
+      "CurrHealthState": 1,
+      "BloodType": 6,
+      "Allergies": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Vaccines": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "IllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "FamilyIllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.FamilyIllnessHistory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Patient": {
+        "$type": "Model.Users.Patient, ZdravoKorporacija",
+        "IsGuestAccount": false,
+        "ChosenDoctor": null,
+        "IdentificationNumber": "11111111",
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "jovo",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "ListOfResults": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.ListOfResults, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Therapies": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Therapy, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+      "IdRecord": 6,
+      "CurrHealthState": 1,
+      "BloodType": 6,
+      "Allergies": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Vaccines": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "IllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "FamilyIllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.FamilyIllnessHistory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Patient": {
+        "$type": "Model.Users.Patient, ZdravoKorporacija",
+        "IsGuestAccount": false,
+        "ChosenDoctor": null,
+        "IdentificationNumber": "1234567890124",
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "zakha",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "ListOfResults": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.ListOfResults, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Therapies": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Therapy, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+      "IdRecord": 7,
+      "CurrHealthState": 1,
+      "BloodType": 3,
+      "Allergies": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Allergens, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Vaccines": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Vaccines, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "IllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "FamilyIllnessHistory": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.FamilyIllnessHistory, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Patient": {
+        "$type": "Model.Users.Patient, ZdravoKorporacija",
+        "IsGuestAccount": false,
+        "ChosenDoctor": null,
+        "IdentificationNumber": "1234567890123",
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "nidza",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "ListOfResults": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.ListOfResults, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Therapies": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Therapy, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    }
+  ]
+}

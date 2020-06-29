@@ -1,0 +1,74 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.ExaminationSurgery.EmergencyRequest, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.ExaminationSurgery.EmergencyRequest, ZdravoKorporacija",
+      "TypeOfAppointment": 0,
+      "RequestId": 1,
+      "SideNotes": "",
+      "Specialization": null,
+      "MedicalRecord": {
+        "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+        "IdRecord": 1,
+        "CurrHealthState": 0,
+        "BloodType": 0,
+        "Allergies": null,
+        "Vaccines": null,
+        "IllnessHistory": null,
+        "FamilyIllnessHistory": null,
+        "Patient": null,
+        "ListOfResults": null,
+        "Therapies": null
+      },
+      "Scheduled": false
+    },
+    {
+      "$type": "Model.ExaminationSurgery.EmergencyRequest, ZdravoKorporacija",
+      "TypeOfAppointment": 0,
+      "RequestId": 2,
+      "SideNotes": "",
+      "Specialization": {
+        "$type": "Model.Users.Specialization, ZdravoKorporacija",
+        "SpecializationName": "opšta praksa"
+      },
+      "MedicalRecord": {
+        "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+        "IdRecord": 2,
+        "CurrHealthState": 0,
+        "BloodType": 0,
+        "Allergies": null,
+        "Vaccines": null,
+        "IllnessHistory": null,
+        "FamilyIllnessHistory": null,
+        "Patient": null,
+        "ListOfResults": null,
+        "Therapies": null
+      },
+      "Scheduled": false
+    },
+    {
+      "$type": "Model.ExaminationSurgery.EmergencyRequest, ZdravoKorporacija",
+      "TypeOfAppointment": 0,
+      "RequestId": 3,
+      "SideNotes": "",
+      "Specialization": {
+        "$type": "Model.Users.Specialization, ZdravoKorporacija",
+        "SpecializationName": "opšta praksa"
+      },
+      "MedicalRecord": {
+        "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+        "IdRecord": 5,
+        "CurrHealthState": 0,
+        "BloodType": 0,
+        "Allergies": null,
+        "Vaccines": null,
+        "IllnessHistory": null,
+        "FamilyIllnessHistory": null,
+        "Patient": null,
+        "ListOfResults": null,
+        "Therapies": null
+      },
+      "Scheduled": false
+    }
+  ]
+}

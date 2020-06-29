@@ -1,0 +1,103 @@
+﻿<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      HorizontalAlignment="Center" VerticalAlignment="Center">
+
+    <FlowDocumentPageViewer>
+        <FlowDocument PagePadding="40" PageWidth="1240" ColumnWidth="1240" PageHeight="1750" DataContext="{Binding}" IsColumnWidthFlexible="False" Background="White">
+            <Paragraph >
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <Image Height="316" Width="300" Source="/Resources/default.png"/>
+                    <TextBlock FontFamily="Helvetica" Margin="50 70 0 0" FontSize="50" VerticalAlignment="Center" Text="Izveštaj o potrošnji lekova"/>
+                </StackPanel>
+                <Border BorderThickness="0, 0, 0, 1" BorderBrush="Black"/>
+            </Paragraph>
+            <Paragraph FontSize="35" FontFamily="Helvetica" FontWeight="Normal">
+                Za period od
+                <TextBlock Text="{Binding dateFrom, StringFormat= dd.MM.yyyy.}"/>
+                do
+                <TextBlock Text="{Binding dateTo, StringFormat= dd.MM.yyyy.}"/>
+            </Paragraph>
+            <List Name="lista">
+                <ListItem>
+                    <Table CellSpacing="0" FontSize="20" FontFamily="Helvetica">
+                        <Table.Columns>
+                            <TableColumn Width="100"/>
+                            <TableColumn Width="500"/>
+                            <TableColumn Width="640"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell ColumnSpan="1">
+                                </TableCell>
+                                <TableCell ColumnSpan="1">
+                                    <Paragraph TextAlignment="Left">
+                                        <StackPanel Margin="50 0 0 0" VerticalAlignment="Center">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="ID leka:" FontWeight="Normal"/>
+                                                <TextBlock Margin="10 0" Text="{Binding Path=prescription.medication.id}" Foreground="#FF047AA6"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Naziv leka:" FontWeight="Normal"/>
+                                                <TextBlock Margin="10 0" Text="{Binding Path=prescription.medication.name}" Foreground="#FF047AA6"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Proizvođač:" FontWeight="Normal"/>
+                                                <TextBlock Margin="10 0" Text="{Binding Path=prescription.medication.Manufactuer}" Foreground="#FF047AA6"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Format leka:" FontWeight="Normal"/>
+                                                <TextBlock Margin="10 0" Text="{Binding Path=prescription.medication.format}" Foreground="#FF047AA6"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Broj prepisivanja:" FontWeight="Normal"/>
+                                                <TextBlock Margin="10 0" Text="{Binding Path=numOfPrescription}" Foreground="#FF047AA6"/>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Broj preuzetih u apoteci:" FontWeight="Normal"/>
+                                                <TextBlock Margin="10 0" Text="{Binding Path=numOfTaken}" Foreground="#FF047AA6"/>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell ColumnSpan="1">
+                                    <Paragraph>
+                                        <StackPanel VerticalAlignment="Center" Margin="100 0 0 0">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Sastojci:" FontWeight="Normal" VerticalAlignment="Top"/>
+                                                <ListBox x:Name="sastojci"    
+                                                      FontFamily="Helvetica"
+                                                      FontWeight="Normal"
+                                                      Width="200"
+                                                      Height="300"
+                                                      ItemsSource="{Binding Path=prescription.medication.ingredients}"
+                                                      />
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Alergeni:" FontWeight="Normal"/>
+
+                                                <ListBox x:Name="alergeni"    
+                                                      FontFamily="Helvetica"
+                                                      FontWeight="Normal"
+                                                      ItemsSource="{Binding Path=prescription.medication.allergens}"
+                                                      />
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="Rizične grupe:" FontWeight="Normal"/>
+                                                <ListBox x:Name="riskFactor"    
+                                                      FontFamily="Helvetica"
+                                                      FontWeight="Normal"
+                                                      ItemsSource="{Binding Path=prescription.medication.allergens}"
+                                                      />
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </ListItem>
+            </List>
+        </FlowDocument>
+    </FlowDocumentPageViewer>
+
+</Page>

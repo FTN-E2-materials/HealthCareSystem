@@ -1,0 +1,205 @@
+﻿<Page x:Class="ZdravoKorporacija.Pages.MedicalRecord.MedicalRecordFromPatient"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoKorporacija.Pages.MedicalRecord"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="708" d:DesignWidth="1024" Background="White" FontSize="15"
+      Title="MedicalRecordFromPatient">
+
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="MyButton2">
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="Transparent"/>
+
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="ListBoxItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="ItemBorder" BorderBrush="LightGray" Margin="1" Background="Transparent">
+                            <ContentPresenter/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="524"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="30"/>
+
+        </Grid.ColumnDefinitions>
+
+
+
+
+        <Button  x:Name="Close_Add" Click="Close_Add_Click" Grid.Row="0"  Margin="0,0,0,0" Width="100" Height="30" Background="{x:Null}" BorderThickness="0"  VerticalAlignment="Bottom" HorizontalAlignment="Left" >
+            <DockPanel>
+                <Image Source="/Resources/right.png"/>
+                <TextBlock VerticalAlignment="center" FontSize="15"  HorizontalAlignment="Center" Text="Nazad">
+
+                </TextBlock>
+            </DockPanel>
+        </Button>
+        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.RowSpan="3" Grid.Column="2" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal"  Grid.Row="2" Grid.Column="1"  Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Right" >
+                <Button x:Name="Vaccines" BorderThickness ="0.5" Content="Analize i vakcine" FontSize="15" Width="120" Height="30" Click="Vaccines_Click"/>
+                <Button Content="Izdaj recept" BorderThickness ="0.5" Margin="5, 0, 0 0" FontSize="15" Width="100" Height="30" x:Name="Prescription" Click="Prescription_Click"/>
+                <Button Content="Izdaj uput" BorderThickness ="0.5"  Margin="5, 0, 0 0" FontSize="15" Width="80" Height="30" x:Name="SpecialistsExam" Click="SpecialistsExam_Click"/>
+                <Button Content="Zakaži" BorderThickness ="0.5"  Margin="5, 0, 0 0" FontSize="15" Width="70" Height="30" x:Name="NewAppointment" Click="NewAppointment_Click"/>
+                <Button Content="Bolničko lečenje" BorderThickness ="0.5" Margin="5, 0, 0 0" FontSize="15" Width="120" Height="30" x:Name="HospitalTreatment" Click="HospitalTreatment_Click"/>
+            </StackPanel>
+
+            <Frame x:Name="Frejm" Source="/Pages/MedicalRecord/Informations.xaml" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Width="250" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="0, 50, 0, 0">
+
+
+            <Image x:Name="Profile" Height="200" Width="250">
+                <Image.Clip>
+                    <EllipseGeometry
+                        RadiusX="100"
+                        RadiusY="100"
+                        Center="100,100"/>
+                </Image.Clip>
+            </Image>
+            <TextBlock x:Name="FullName" 
+                           FontSize="18"
+                           FontWeight="Light"
+                            Margin="0, 20, 0 ,10"
+                           FontFamily="Helvetica" HorizontalAlignment="Center"/>
+            <Border Width="160" CornerRadius="0,20,0,20" Background="PowderBlue" Height="30">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                    <TextBlock Text="Broj kartona:"
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica" 
+                           Margin="0,0,10,0"
+                               VerticalAlignment="Center"
+                           />
+
+
+                    <TextBlock x:Name="Record_Number"
+                                VerticalAlignment="Center"  
+                               HorizontalAlignment="Center"
+                               FontSize="15"
+                               FontWeight="Light"
+                               FontFamily="Helvetica"
+                               />
+
+                </StackPanel>
+            </Border>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock x:Name="DateAppointment"
+                           HorizontalAlignment="Center"
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica" Margin="0, 5, 0, 0" />
+                <materialDesign:PackIcon Kind="Calendar" HorizontalAlignment="Center" Margin="5, 5, 0, 0" />
+            </StackPanel>
+            <Border CornerRadius="10" Width="230" Height="180" Margin="0, 5, 0, 0" BorderThickness="0.5" Background="Transparent" BorderBrush="Black">
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10" />
+                            <ColumnDefinition Width="40" />
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+
+                        <Border Grid.Row="0" Grid.Column="1" Background="PowderBlue" Margin="10,0,0,0" CornerRadius="0, 0, 10, 10">
+                            <materialDesign:PackIcon Kind="InformationOutline" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <TextBlock Grid.Row="0" Grid.Column="2" Text="Osnovni podaci:"
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica" Margin="10,15,0,-6" />
+                    </Grid>
+
+                    <StackPanel Orientation="Horizontal" Margin="20, 10, 0 0">
+                        <StackPanel Orientation="Vertical" >
+                            <TextBlock Text="Pol" FontSize="15"
+                            Margin="0, 5, 0, 0"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"/>
+                            <TextBlock Text="Datum rođenja:" FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                            Margin="0, 5, 0, 0"/>
+                            <TextBlock Text="JMBG:" FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                           Margin="0, 5, 0, 0"/>
+                            <TextBlock Text="Mesto:" FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                            Margin="0, 5, 0, 0"/>
+                            <TextBlock Text="Država:" FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                            Margin="0, 5, 0, 0"/>
+
+
+                        </StackPanel>
+
+                        <StackPanel x:Name="Panel" Orientation="Vertical" Margin="10, 0, 0 0">
+                            <TextBlock x:Name="Gender" 
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                           Margin="0, 5, 0, 0"/>
+                            <TextBlock x:Name="DateOfBirth" 
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                           Margin="0, 5, 0, 0"/>
+                            <TextBlock x:Name="ID_Number" 
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                           Margin="0, 5, 0, 0"/>
+                            <TextBlock x:Name="Curr_Residence" 
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                           Margin="0, 5, 0, 0"/>
+                            <TextBlock x:Name="State"
+                           FontSize="15"
+                           FontWeight="Light"
+                           FontFamily="Helvetica"
+                           Margin="0, 5, 0, 0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+
+
+
+    </Grid>
+</Page>

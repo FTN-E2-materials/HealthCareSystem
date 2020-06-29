@@ -1,0 +1,13 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Users.State, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Users.State, ZdravoKorporacija",
+      "Name": "Srbija"
+    },
+    {
+      "$type": "Model.Users.State, ZdravoKorporacija",
+      "Name": "Tanzanija"
+    }
+  ]
+}

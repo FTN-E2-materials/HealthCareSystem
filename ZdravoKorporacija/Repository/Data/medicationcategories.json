@@ -1,0 +1,13 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Medications.MedicationCategory, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Medications.MedicationCategory, ZdravoKorporacija",
+      "CategoryName": "kardio-vaskularni",
+      "Specialization": {
+        "$type": "Model.Users.Specialization, ZdravoKorporacija",
+        "SpecializationName": "kardiologija"
+      }
+    }
+  ]
+}

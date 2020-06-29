@@ -1,0 +1,95 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Users.City, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Kikinda",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 1
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Subotica",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 2
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Novi Sad",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 3
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Beograd",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 4
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Sombor",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 5
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Vršac",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 6
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Vrbas",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 7
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Ruma",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 8
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Kula",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Srbija"
+      },
+      "Id": 9
+    },
+    {
+      "$type": "Model.Users.City, ZdravoKorporacija",
+      "Name": "Dar es Salaam",
+      "State": {
+        "$type": "Model.Users.State, ZdravoKorporacija",
+        "Name": "Tanzanija"
+      },
+      "Id": 10
+    }
+  ]
+}

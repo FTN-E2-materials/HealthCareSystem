@@ -1,0 +1,33 @@
+﻿<Page x:Class="ZdravoKorporacija.Pages.Blogile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoKorporacija.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="708" d:DesignWidth="946" Background="White"
+      Title="Blogile">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="40" VerticalAlignment="Bottom" Grid.Row="0" Grid.Column="1">
+            <Button Width="150" BorderThickness="0.5" x:Name="BlogBtn" Click="Blog_Click" Content="Blog" />
+            <Button Width="150" BorderThickness="0.5" x:Name="AddArticle" Click="AddArticle_Click" Margin="5, 0, 0, 0" Content="Dodaj članak" />
+            <Button Width="150" BorderThickness="0.5" x:Name="Questions" Click="Questions_Click" Margin="5, 0, 0, 0" Content="Pitanja pacijenata" />
+            <Button Width="150" BorderThickness="0.5" x:Name="FAQ" Click="FAQ_Click" Margin="5, 0, 0, 0" Content="FAQ" />
+        </StackPanel>
+
+
+        <StackPanel x:Name="Language" Height="300" Width="700" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </StackPanel>
+        <Frame NavigationUIVisibility="Hidden" Grid.Row="1" Grid.Column="1" x:Name="Content"/>
+    </Grid>
+</Page>

@@ -1,0 +1,621 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Rooms.Bed, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 1,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 6,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Rooms.Occupation, ZdravoKorporacija",
+            "OccupiedFromDate": "2020-07-20T00:00:00",
+            "OccupiedToDate": "2020-07-25T00:00:00",
+            "Patient": {
+              "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+              "IdRecord": 1,
+              "CurrHealthState": 0,
+              "BloodType": 0,
+              "Allergies": null,
+              "Vaccines": null,
+              "IllnessHistory": null,
+              "FamilyIllnessHistory": null,
+              "Patient": null,
+              "ListOfResults": null,
+              "Therapies": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, SimsProjekat",
+      "BedId": 2,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, SimsProjekat",
+        "RoomID": 6,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 3,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 6,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 4,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 5,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 6,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 7,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 8,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 9,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 10,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 11,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, SimsProjekat",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 12,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 7,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 13,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 12,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 14,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 12,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 15,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 12,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 16,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 11,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 17,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 11,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 18,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 11,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 19,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 11,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 20,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 11,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 21,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 5,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 22,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 5,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 23,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 5,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 24,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 8,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 25,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 8,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 26,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 8,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 27,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 8,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 28,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 8,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 29,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 8,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 30,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 9,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 31,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 9,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 32,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 10,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 33,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 10,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    {
+      "$type": "Model.Rooms.Bed, ZdravoKorporacija",
+      "BedId": 34,
+      "CurrentlyFree": true,
+      "Room": {
+        "$type": "Model.Rooms.Room, ZdravoKorporacija",
+        "RoomID": 10,
+        "RoomNumber": 0,
+        "RoomType": 0,
+        "Doctors": null,
+        "Department": null
+      },
+      "Occupations": {
+        "$type": "System.Collections.Generic.List`1[[Model.Rooms.Occupation, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Rooms.Occupation, ZdravoKorporacija",
+            "OccupiedFromDate": "2020-05-11T00:00:00",
+            "OccupiedToDate": "2020-07-05T00:00:00",
+            "Patient": {
+              "$type": "Model.MedicalRecord.MedicalRecord, ZdravoKorporacija",
+              "IdRecord": 1,
+              "CurrHealthState": 0,
+              "BloodType": 0,
+              "Allergies": null,
+              "Vaccines": null,
+              "IllnessHistory": null,
+              "FamilyIllnessHistory": null,
+              "Patient": null,
+              "ListOfResults": null,
+              "Therapies": null
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿<Page x:Class="ZdravoKorporacija.Pages.Blog.Blogic"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoKorporacija.Pages.Blog"
+      mc:Ignorable="d" 
+      d:DesignHeight="628" d:DesignWidth="746" Background="White"
+      Title="Blogic">
+    <Page.Resources>
+    <Style TargetType="ListBoxItem">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Border x:Name="ItemBorder" BorderBrush="LightGray" Margin="1" Background="Transparent">
+                        <ContentPresenter/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
+    </Style>
+    </Page.Resources>
+    <Grid>
+        <ListBox x:Name ="ArticlesList" Grid.Row="1"
+                 ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                 Margin="0, 50, 0, 0"
+                 ItemsSource="{Binding}">
+            <ListBox.ItemsPanel >
+                <ItemsPanelTemplate >
+                    <VirtualizingStackPanel  IsItemsHost="True" Orientation="Vertical"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="120"/>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="5"/>
+                        </Grid.RowDefinitions>
+
+                        <Image Margin="10, 0, 0, 0" Source="{Binding Path=article.articlePic}" Grid.Column="0" Grid.Row="1" />
+                        <TextBlock Text="{Binding Path=article.title}" 
+                           Margin="0, 0, 10, 0"
+                           FontSize="22" 
+                           FontWeight="Light" 
+                           FontFamily="Helvetica" 
+                           Grid.Row="0" Grid.Column="1" 
+                           HorizontalAlignment="Center"  
+                           VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding Path=article.content}" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" 
+                           Margin="10"/>
+                        <Button x:Name="ShowAll" Click="ShowAll_Click"  Tag="{Binding Path=info}" Content="{Binding Path=buttonContent}" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0.5" Grid.Row="2" Height="30" Width="80" Grid.Column="0"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Page>

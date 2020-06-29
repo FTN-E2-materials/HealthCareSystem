@@ -1,0 +1,159 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Users.Address, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Novosadskog sajma",
+      "Number": 11,
+      "Apartment": 5,
+      "Floor": 2,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 3
+      },
+      "Id": 1
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Braće Tatić",
+      "Number": 12,
+      "Apartment": 15,
+      "Floor": 4,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 1
+      },
+      "Id": 2
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Braće Ribnikar",
+      "Number": 5,
+      "Apartment": 13,
+      "Floor": 3,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 3
+      },
+      "Id": 3
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "el Ulica",
+      "Number": 10,
+      "Apartment": 10,
+      "Floor": 10,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 10
+      },
+      "Id": 4
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Alekse Šantića",
+      "Number": 12,
+      "Apartment": 13,
+      "Floor": 3,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 10
+      },
+      "Id": 5
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Cara Dušana",
+      "Number": 10,
+      "Apartment": 10,
+      "Floor": 10,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 10
+      },
+      "Id": 6
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Trg Srpskih Dobrovoljaca",
+      "Number": 10,
+      "Apartment": 10,
+      "Floor": 10,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 10
+      },
+      "Id": 7
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Generala Drapšina",
+      "Number": 10,
+      "Apartment": 10,
+      "Floor": 10,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 10
+      },
+      "Id": 8
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Bulevar Oslobođenja",
+      "Number": 10,
+      "Apartment": 10,
+      "Floor": 10,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 10
+      },
+      "Id": 9
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Braće Tatić",
+      "Number": 12,
+      "Apartment": 0,
+      "Floor": 0,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 1
+      },
+      "Id": 10
+    },
+    {
+      "$type": "Model.Users.Address, ZdravoKorporacija",
+      "Street": "Braće Ribnikar",
+      "Number": 5,
+      "Apartment": 0,
+      "Floor": 0,
+      "City": {
+        "$type": "Model.Users.City, ZdravoKorporacija",
+        "Name": null,
+        "State": null,
+        "Id": 3
+      },
+      "Id": 11
+    }
+  ]
+}

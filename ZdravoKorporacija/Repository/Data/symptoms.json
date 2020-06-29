@@ -1,0 +1,77 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Symptoms, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "kasalj"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "vrtoglavica"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "drhtavica"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "upala usiju"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "glavobolja"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "povracanje"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "zatvor"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "umor"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "bol u misićima"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "bol u kostima"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "visok pritisak"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "nizak pritisak"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "zapaljenje pluca"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "nadutost"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "proliv"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "hiperaktivnost"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "suvi kasalj"
+    },
+    {
+      "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+      "Name": "kijanje"
+    },
+  ]
+}

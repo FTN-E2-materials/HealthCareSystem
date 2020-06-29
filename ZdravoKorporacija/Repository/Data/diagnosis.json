@@ -1,0 +1,28 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Diagnosis, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.MedicalRecord.Diagnosis, ZdravoKorporacija",
+      "Name": "COVID-19",
+      "Code": 1,
+      "Symptoms": {
+        "$type": "System.Collections.Generic.List`1[[Model.MedicalRecord.Symptoms, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+            "Name": "vrtoglavica"
+          },{
+            "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+            "Name": "kijanje"
+          },{
+            "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+            "Name": "bol u misicima"
+          },{
+            "$type": "Model.MedicalRecord.Symptoms, ZdravoKorporacija",
+            "Name": "zapaljenje pluca"
+          },
+        ]
+      }
+    }
+  ]
+}

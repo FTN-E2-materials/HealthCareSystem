@@ -1,0 +1,62 @@
+﻿<Page x:Class="ZdravoKorporacija.Pages.MedicalRecord.NewAppointment"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZdravoKorporacija.Pages.MedicalRecord"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" d:DesignHeight="530" d:DesignWidth="620" Background="White" FontSize="15"
+      
+      Title="NewAppointment">
+
+    <Grid>
+
+        <StackPanel x:Name="Form_Adding" Orientation="Vertical" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="2" Grid.RowSpan ="2"   Width="400" VerticalAlignment="Top" Height="500">
+            <StackPanel Orientation="Horizontal">
+            <Button x:Name="Close_Add" Click="Close_Add_Click"   Margin="40,40,0,5" Width="100" Height="30" Background="{x:Null}" BorderThickness="0"  VerticalAlignment="Bottom" HorizontalAlignment="Left" >
+                <DockPanel>
+                    <Image Source="/Resources/right.png"/>
+                    <TextBlock VerticalAlignment="center" FontSize="15"  HorizontalAlignment="Center" Text="Nazad">
+
+                    </TextBlock>
+                </DockPanel>
+            </Button>
+                <Border x:Name="ErrorMessage" Visibility="Collapsed" Margin="40,40,0,0" CornerRadius="20" Height="40" Width="200" HorizontalAlignment="Center" Background="red">
+                    <TextBlock x:Name="Error" Text="Morate popuniti sva polja označena zvezdicom!" TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" 
+                               FontSize="15"/>
+                </Border>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+            <StackPanel Orientation="Horizontal" Margin="20, 20, 0,0" x:Name="Appointment_Type">
+                <TextBlock Text="Tip*:" Margin="0, 0, 30, 0"/>
+                <RadioButton x:Name="Exam" Content="Pregled" Margin="25,0,10,0"/>
+                <RadioButton x:Name="Surgery" Content="Operacija"/>
+            </StackPanel>
+  
+            <StackPanel Orientation="Horizontal" Margin="20, 0, 0,0" x:Name ="Date">
+                    <TextBlock VerticalAlignment="Center"  Text="Datum*:" Margin="0, 15, 30, 0"/>
+                <DatePicker Width="150" Margin="8, 0, 0, 0" x:Name="SelectedDate" SelectedDateChanged="SelectedDate_SelectedDateChanged"   />
+            </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20, 10, 0,0" >
+                    <TextBlock Text="Vreme*:" Margin="0, 10, 30, 0" VerticalAlignment="Center" />
+                    <ComboBox x:Name ="TimeBox" Width="150" BorderBrush="Black" BorderThickness="0.5"  Margin="8, 0, 0, 0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20, 10, 0,0">
+                    <TextBlock  x:Name ="Urgency" Text="Hitnost:" Margin="0, 5, 25, 0" VerticalAlignment="Center" />
+                <RadioButton x:Name="No" Content="NE" Margin="8,0,20,0"/>
+                <RadioButton x:Name="Yes" Content="DA"/>
+            </StackPanel>
+            <TextBlock Text="Kratak opis:" Margin="20, 10, 0,0"/>
+            <TextBox x:Name="ShortDescr" Margin="20, 10, 0,0" Height="80" BorderBrush="Black" BorderThickness="0.5"/>
+
+            <StackPanel Orientation="Horizontal" Margin="20, 20, 0, 0" HorizontalAlignment="Right">
+                    <Button x:Name="Cancel_Form" BorderThickness="0.5" Click="Cancel_Form_Click" Content ="Otkaži" Height ="30" Width="80" Margin="10"/>
+                    <Button x:Name="Add_Form" BorderThickness="0.5" Click="Add_Form_Click" Content="Potvrda" Height ="30" Width="80" Margin="10, 10, 0, 10" />
+
+            </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>

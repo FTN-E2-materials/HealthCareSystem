@@ -1,0 +1,1758 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Users.Notification, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 1,
+      "ContentOfNotification": "Neka notificatija",
+      "NotificationCategory": 2,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          },
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "4511131",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 2,
+      "ContentOfNotification": "Neka notificatija",
+      "NotificationCategory": 2,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "123464895",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          },
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "4511131",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjovanovic",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 3,
+      "ContentOfNotification": "Neka notificatija",
+      "NotificationCategory": 2,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "123464895",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          },
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "4511131",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjovanovic",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 4,
+      "ContentOfNotification": "Neka notificatija",
+      "NotificationCategory": 2,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "123464895",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          },
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "4511131",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "mirko12",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 5,
+      "ContentOfNotification": "Neka notificatija",
+      "NotificationCategory": 2,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "123464895",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          },
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "4511131",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "mirko12",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 6,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Mirko Cutura",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": "1234567890124",
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "mirko12",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "123464895",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 7,
+      "ContentOfNotification": "Imate novi zakazan pregled kod doktora Jelena Vlajkov",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": "123464895",
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "1234567890124",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "mirko12",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 8,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Milan Momčilović",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": "11111111",
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": "123464895",
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "Milann",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 9,
+      "ContentOfNotification": "Novo pitanje je postavljeno na blogu!",
+      "NotificationCategory": 2,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "mirko12",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          },
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjovanovic",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 10,
+      "ContentOfNotification": "Novo pitanje je postavljeno na blogu!",
+      "NotificationCategory": 2,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "Milann",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          },
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjovanovic",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 11,
+      "ContentOfNotification": "Odgovor na Vaše pitanje je postavljeno od strane Jelena Vlajkov",
+      "NotificationCategory": 2,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "mirko12",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 12,
+      "ContentOfNotification": "Odgovor na Vaše pitanje je postavljeno od strane Jelena Vlajkov",
+      "NotificationCategory": 2,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "mirko12",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 13,
+      "ContentOfNotification": "Odgovor na Vaše pitanje je postavljeno od strane Jelena Vlajkov",
+      "NotificationCategory": 2,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "Milann",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 14,
+      "ContentOfNotification": "Novi zahtev za odsustvo!",
+      "NotificationCategory": 0,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "danica",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 15,
+      "ContentOfNotification": "Validiran lek od strane  ",
+      "NotificationCategory": 3,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "danica",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 16,
+      "ContentOfNotification": "Validiran lek od strane  ",
+      "NotificationCategory": 3,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "danica",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 17,
+      "ContentOfNotification": "Validiran lek od strane  ",
+      "NotificationCategory": 3,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "danica",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 18,
+      "ContentOfNotification": "Validiran lek od strane  ",
+      "NotificationCategory": 3,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "danica",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 19,
+      "ContentOfNotification": "Validiran lek od strane  ",
+      "NotificationCategory": 3,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "danica",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 20,
+      "ContentOfNotification": "Novi zahtev za bolničko lečenje je dodat!",
+      "NotificationCategory": 6,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "matijam",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 21,
+      "ContentOfNotification": "Novi zahtev za zakazivanje hitnog pregleda za pacijenta Jovan Jovanovic",
+      "NotificationCategory": 5,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "matijam",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 22,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Mirko Cutura",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "mirko12",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 23,
+      "ContentOfNotification": "Imate novi zakazan pregled kod  ",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "mirko12",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 24,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Dušan Vasiljev",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "dusan-vasiljev",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 25,
+      "ContentOfNotification": "Imate novi zakazan pregled kod  ",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "dusan-vasiljev",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 26,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Dušan Vasiljev",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "dusan-vasiljev",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 27,
+      "ContentOfNotification": "Imate novi zakazan pregled kod  ",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "dusan-vasiljev",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 28,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Milan Momcilovic",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "Milann",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 29,
+      "ContentOfNotification": "Imate novi zakazan pregled kod  ",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "Milann",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 30,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Dušan Vasiljev",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "dusan-vasiljev",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 31,
+      "ContentOfNotification": "Imate novi zakazan pregled kod  ",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "dusan-vasiljev",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 32,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Marko Markovic",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "markoo",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjelena",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 33,
+      "ContentOfNotification": "Imate novi zakazan pregled kod  ",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjelena",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "markoo",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 34,
+      "ContentOfNotification": "Imate novi zakazan pregled od strane Milan Momcilovic",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "Milann",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "drjovanovic",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 35,
+      "ContentOfNotification": "Imate novi zakazan pregled kod  ",
+      "NotificationCategory": 1,
+      "NotificationFrom": {
+        "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+        "IdentificationNumber": null,
+        "Name": null,
+        "Surname": null,
+        "DateOfBirth": "0001-01-01T00:00:00",
+        "Phone": null,
+        "Email": null,
+        "Username": "drjovanovic",
+        "Password": null,
+        "DateOfCreation": "0001-01-01T00:00:00",
+        "EducationLevel": 0,
+        "Profession": null,
+        "ProfileImage": null,
+        "PlaceOfBirth": null,
+        "CurrResidence": null,
+        "InsurancePolicy": null,
+        "Gender": 0
+      },
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "Milann",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Model.Users.Notification, ZdravoKorporacija",
+      "Id": 36,
+      "ContentOfNotification": "Novi zahtev za bolničko lečenje je dodat!",
+      "NotificationCategory": 6,
+      "NotificationFrom": null,
+      "NotificationTo": {
+        "$type": "System.Collections.Generic.List`1[[Model.Users.RegisteredUser, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Users.RegisteredUser, ZdravoKorporacija",
+            "IdentificationNumber": null,
+            "Name": null,
+            "Surname": null,
+            "DateOfBirth": "0001-01-01T00:00:00",
+            "Phone": null,
+            "Email": null,
+            "Username": "matijam",
+            "Password": null,
+            "DateOfCreation": "0001-01-01T00:00:00",
+            "EducationLevel": 0,
+            "Profession": null,
+            "ProfileImage": null,
+            "PlaceOfBirth": null,
+            "CurrResidence": null,
+            "InsurancePolicy": null,
+            "Gender": 0
+          }
+        ]
+      }
+    }
+  ]
+}

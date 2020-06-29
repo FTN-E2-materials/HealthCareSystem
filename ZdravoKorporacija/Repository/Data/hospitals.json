@@ -1,0 +1,28 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Users.Hospital, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Users.Hospital, ZdravoKorporacija",
+      "Description": "\t\tDobrodošli u bolnicu Zdravo korporacija!\n\tNaša bolnica trenutno broji više od 1000 pacijenata i najbolju zdravstvenu negu na našim prostorima.",
+      "Name": "Zdaravo korporacija",
+      "Id": 1,
+      "Address": {
+        "$type": "Model.Users.Address, ZdravoKorporacija",
+        "Street": "Braće Ribnikar",
+        "Number": 5,
+        "Apartment": 13,
+        "Floor": 3,
+        "City": {
+          "$type": "Model.Users.City, ZdravoKorporacija",
+          "Name": "Novi Sad",
+          "State": {
+            "$type": "Model.Users.State, ZdravoKorporacija",
+            "Name": "Srbija"
+          },
+          "Id": 3
+        },
+        "Id": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.ExaminationSurgery.Treatment, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.ExaminationSurgery.HospitalTreatment, ZdravoKorporacija",
+      "StartDate": "2020-06-28T00:00:00",
+      "EndDate": "2020-07-03T00:00:00",
+      "Approved": false,
+      "Department": {
+        "$type": "Model.Rooms.Department, ZdravoKorporacija",
+        "Name": null,
+        "Floor": 0,
+        "DepartmentID": 8,
+        "Hospital": null,
+        "Id": 8
+      },
+      "Id": 1,
+      "Date": "2020-06-28T00:00:00",
+      "AdditionalNotes": null,
+      "Type": 1
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 8,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 1,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 2,
+      "Date": "2020-06-25T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.HospitalTreatment, ZdravoKorporacija",
+      "StartDate": "2020-07-14T00:00:00",
+      "EndDate": "2020-08-01T00:00:00",
+      "Approved": false,
+      "Department": {
+        "$type": "Model.Rooms.Department, ZdravoKorporacija",
+        "Name": null,
+        "Floor": 0,
+        "DepartmentID": 1,
+        "Hospital": null,
+        "Id": 1
+      },
+      "Id": 3,
+      "Date": "2020-07-14T00:00:00",
+      "AdditionalNotes": null,
+      "Type": 1
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 0,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Id": 4,
+      "Date": "0001-01-01T00:00:00",
+      "AdditionalNotes": null,
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.LabTesting, ZdravoKorporacija",
+      "LabTestTypes": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationSurgery.LabTestType, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Id": 5,
+      "Date": "2020-06-25T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 2
+    },
+    {
+      "$type": "Model.ExaminationSurgery.LabTesting, ZdravoKorporacija",
+      "LabTestTypes": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationSurgery.LabTestType, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "biohemija"
+          },
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "nadbubrežni hormoni"
+          },
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "reproduktivni"
+          }
+        ]
+      },
+      "Id": 6,
+      "Date": "2020-06-25T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 2
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 8,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 1,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 7,
+      "Date": "2020-06-25T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 8,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 1,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 8,
+      "Date": "0001-01-01T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.LabTesting, ZdravoKorporacija",
+      "LabTestTypes": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationSurgery.LabTestType, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "dijabetes"
+          }
+        ]
+      },
+      "Id": 9,
+      "Date": "0001-01-01T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 2
+    },
+    {
+      "$type": "Model.ExaminationSurgery.LabTesting, ZdravoKorporacija",
+      "LabTestTypes": {
+        "$type": "System.Collections.Generic.List`1[[Model.ExaminationSurgery.LabTestType, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "anemija"
+          },
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "ko?tani markeri"
+          },
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "reproduktivni"
+          },
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "reproduktivni"
+          },
+          {
+            "$type": "Model.ExaminationSurgery.LabTestType, ZdravoKorporacija",
+            "TestName": "tiroidne"
+          }
+        ]
+      },
+      "Id": 10,
+      "Date": "0001-01-01T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 2
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 8,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 1,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 11,
+      "Date": "0001-01-01T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.HospitalTreatment, ZdravoKorporacija",
+      "StartDate": "2020-06-30T00:00:00",
+      "EndDate": "2020-08-05T00:00:00",
+      "Approved": false,
+      "Department": {
+        "$type": "Model.Rooms.Department, ZdravoKorporacija",
+        "Name": null,
+        "Floor": 0,
+        "DepartmentID": 6,
+        "Hospital": null,
+        "Id": 6
+      },
+      "Id": 12,
+      "Date": "2020-06-30T00:00:00",
+      "AdditionalNotes": null,
+      "Type": 1
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 6,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 1,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 13,
+      "Date": "0001-01-01T00:00:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 8,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 1,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 14,
+      "Date": "2020-06-28T00:00:00+02:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 12,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 3,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 15,
+      "Date": "2020-06-29T00:00:00+02:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.Prescription, ZdravoKorporacija",
+      "Reserved": false,
+      "ReservedFrom": "0001-01-01T00:00:00",
+      "ReservedTo": "0001-01-01T00:00:00",
+      "HourlyIntake": 24,
+      "Medications": {
+        "$type": "System.Collections.Generic.List`1[[Model.Medications.Medication, ZdravoKorporacija]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Model.Medications.Medication, ZdravoKorporacija",
+            "MedId": 1,
+            "Med": null,
+            "Status": 0,
+            "Company": null,
+            "Quantity": 0,
+            "MedicationContent": null,
+            "MedicationCategory": null,
+            "Allergens": null,
+            "AlternativeMedication": null,
+            "SideEffects": null
+          }
+        ]
+      },
+      "Id": 16,
+      "Date": "2020-06-29T00:00:00+02:00",
+      "AdditionalNotes": "",
+      "Type": 0
+    },
+    {
+      "$type": "Model.ExaminationSurgery.HospitalTreatment, ZdravoKorporacija",
+      "StartDate": "2020-07-03T00:00:00",
+      "EndDate": "2020-08-07T00:00:00",
+      "Approved": false,
+      "Department": {
+        "$type": "Model.Rooms.Department, ZdravoKorporacija",
+        "Name": null,
+        "Floor": 0,
+        "DepartmentID": 3,
+        "Hospital": null,
+        "Id": 3
+      },
+      "Id": 17,
+      "Date": "2020-07-03T00:00:00",
+      "AdditionalNotes": null,
+      "Type": 1
+    }
+  ]
+}

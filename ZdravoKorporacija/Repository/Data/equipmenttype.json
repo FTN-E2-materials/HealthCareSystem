@@ -1,0 +1,33 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Model.Rooms.EquipmentType, ZdravoKorporacija]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Model.Rooms.EquipmentType, ZdravoKorporacija",
+      "Name": "gaze"
+    },
+    {
+      "$type": "Model.Rooms.EquipmentType, ZdravoKorporacija",
+      "Name": "kreveti"
+    },
+    {
+      "$type": "Model.Rooms.EquipmentType, ZdravoKorporacija",
+      "Name": "injekcije"
+    },
+    {
+      "$type": "Model.Rooms.EquipmentType, ZdravoKorporacija",
+      "Name": "flasteri"
+    },
+    {
+      "$type": "Model.Rooms.EquipmentType, ZdravoKorporacija",
+      "Name": "stolice"
+    },
+    {
+      "$type": "Model.Rooms.EquipmentType, ZdravoKorporacija",
+      "Name": "stolovi"
+    },
+    {
+      "$type": "Model.Rooms.EquipmentType, ZdravoKorporacija",
+      "Name": "operacioni stolovi"
+    }
+  ]
+}
